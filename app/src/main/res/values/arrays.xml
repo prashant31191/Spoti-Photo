@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_number_options">
+        <item>@string/pref_number_label_ten</item>
+        <item>@string/pref_number_label_twenty</item>
+        <item>@string/pref_number_label_thirty</item>
+    </string-array>
+
+    <string-array name="pref_number_values">
+        <item>@string/pref_number_label_ten</item>
+        <item>@string/pref_number_label_twenty</item>
+        <item>@string/pref_number_label_thirty</item>
+    </string-array>
+
+    <string-array name="pref_country_options">
+        <item>@string/pref_country_label_jp</item>
+        <item>@string/pref_country_label_gb</item>
+        <item>@string/pref_country_label_us</item>
+        <item>@string/pref_country_label_co</item>
+        <item>@string/pref_country_label_es</item>
+    </string-array>
+
+    <string-array name="pref_country_values">
+        <item>@string/pref_country_value_jp</item>
+        <item>@string/pref_country_value_gb</item>
+        <item>@string/pref_country_value_us</item>
+        <item>@string/pref_country_value_co</item>
+        <item>@string/pref_country_value_es</item>
+    </string-array>
+
+</resources>

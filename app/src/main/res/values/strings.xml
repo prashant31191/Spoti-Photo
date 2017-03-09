@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Spoti-Photo</string>
+    <string name="top_artists_title">Spotify\'s Top Artists</string>
+    <string name="top_ten_songs_title">Top Ten Songs</string>
+
+    <string name="top_artists_menu_settings">Settings</string>
+
+    <string name="pref_number_artists">Number of artists to query</string>
+    <string name="pref_country">Country to query top artists</string>
+    <string name="pref_artist_label">How many artists do you want to query</string>
+    <string name="pref_number_key">number</string>
+    <string name="pref_number_ten">10</string>
+    <string name="pref_number_label_ten">10</string>
+    <string name="pref_number_label_twenty">20</string>
+    <string name="pref_number_label_thirty">30</string>
+    <string name="pref_country_jp">JP</string>
+    <string name="pref_country_label_jp">Japan</string>
+    <string name="pref_country_label_gb">UK</string>
+    <string name="pref_country_label_us">United States</string>
+    <string name="pref_country_label_co">Colombia</string>
+    <string name="pref_country_label_es">Spain</string>
+    <string name="pref_country_value_jp">JP</string>
+    <string name="pref_country_value_gb">GB</string>
+    <string name="pref_country_value_us">US</string>
+    <string name="pref_country_value_co">CO</string>
+    <string name="pref_country_value_es">ES</string>
+    <string name="pref_country_label">Which country do you want to query top artists</string>
+    <string name="pref_country_key">country</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
