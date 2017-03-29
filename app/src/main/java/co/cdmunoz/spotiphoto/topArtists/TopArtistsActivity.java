@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -31,6 +32,8 @@ public class TopArtistsActivity extends AppCompatActivity implements TopArtistsV
   ProgressBar topArtistsProgressBar;
   @BindString(R.string.top_artists_title)
   String topArtistsTitle;
+  @BindView(R.id.btnStartDemo)
+  Button btnStartDemo;
 
   private TopArtistsAdapter adapter;
   private List<SpotifyArtistsItems> spotifyArtists;
@@ -63,6 +66,13 @@ public class TopArtistsActivity extends AppCompatActivity implements TopArtistsV
         swipeRefresh = true;
         refreshLayout.setRefreshing(false);
         presenter.getTopArtists(preferredNumberTopArtists, preferredCountryTopArtists);
+      }
+    });
+
+    btnStartDemo.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        startActivity(new Intent(TopArtistsActivity.this,ActAnimationList.class));
       }
     });
 

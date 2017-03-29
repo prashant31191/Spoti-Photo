@@ -29,6 +29,9 @@
         <activity
             android:name="co.cdmunoz.spotiphoto.common.CommonImageActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name="co.cdmunoz.spotiphoto.topArtists.ActAnimationList"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
